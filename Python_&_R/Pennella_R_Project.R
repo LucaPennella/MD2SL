@@ -116,7 +116,7 @@ question6_filter_Oldman_film = filter(movielist_splitted_genres, Title %in% ques
 library(epiDisplay)
 tab1(question6_filter_Oldman_film$Genres, sort.group = "decreasing", cum.percent = TRUE, main = '
 Distribution of the movie genre of Table 3 for Flowers')
-
+ 
 
 
 
